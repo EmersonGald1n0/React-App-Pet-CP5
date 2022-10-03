@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { DivLista } from '../../style/styled'
 
 export default function PetCadastro() {
   const [cadastroPets, setCadastroPets] = useState([
