@@ -1,9 +1,9 @@
 import React from 'react'
-
+import { DivForm } from '../../style/styled'
 
 export default function FormPet(props) {
   return (
-
+    <DivForm>
         <div>
             <form method="post" onSubmit={props.funcaoAddCadastro}>
                 <div>
@@ -43,6 +43,6 @@ export default function FormPet(props) {
                 </div>
             </form>
         </div>
-    
+    </DivForm>
   )
 }
