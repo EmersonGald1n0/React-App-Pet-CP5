@@ -22,6 +22,10 @@ export const DivCadastro = styled.div`
   margin: 10px;
 `
 
+export const DivTitle = styled.div`
+  text-align: center;
+  font-size: 1em;
+`
 
 export const DivForm = styled.div`
   label {
