@@ -43,4 +43,27 @@ export default function PetCadastro() {
     }
   }
 
+  return (
+    <DivLista>
+      <FormPet
+        funcaoAddCadastro={addCadastro}
+        novoCadastro={novoCadastro}
+        funcaoCaptura={captura}
+      />
+      {cadastroPets.map((cad, i) => (
+        <Cadastro
+          key={i}
+          nome = {cad.nome}
+          idade = {cad.idade}
+          raca = {cad.raca}
+          tamanho = {cad.tamanho}
+          dono = {cad.dono}
+          tel = {cad.tel}
+          foto = {cad.foto}
+          obs = {cad.obs}
+        />
+      ))}
+    </DivLista>
+  );
+
 }
