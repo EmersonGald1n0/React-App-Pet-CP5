@@ -9,3 +9,27 @@ export const DivLista = styled.div`
   flex-wrap: wrap;
   font-family: 'Trebuchet MS';
 `
+export const DivForm = styled.div`
+  label {
+    color: #FFF;
+  }
+  input {
+    width: 50%;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+    background-color: #525252;
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #084EDC;
+  }
+`
